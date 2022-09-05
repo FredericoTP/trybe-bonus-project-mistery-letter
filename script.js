@@ -2,6 +2,7 @@ const inputCartaTexto = document.getElementById('carta-texto');
 const buttonCriarCarta = document.getElementById('criar-carta');
 const pCartaGerada = document.getElementById('carta-gerada');
 const tagSpan = document.getElementsByTagName('span');
+const pCartaContador = document.getElementById('carta-contador');
 const styleGroup = ['newspaper', 'magazine1', 'magazine2'];
 const sizeGroup = ['medium', 'big', 'reallybig'];
 const rotationGroup = ['rotateleft', 'rotateright'];
@@ -42,6 +43,8 @@ function createLetter() {
   if (content.length == 0 || spaceVerification.length == 0) {
     pCartaGerada.innerText = 'Por favor, digite o conteúdo da carta.';
   }
+
+  pCartaContador.innerText = tagSpan.length / 2;
 }
 
 buttonCriarCarta.addEventListener('click', createLetter);
