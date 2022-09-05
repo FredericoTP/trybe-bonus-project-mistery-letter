@@ -45,6 +45,18 @@ function createLetter() {
   }
 
   pCartaContador.innerText = tagSpan.length / 2;
+
+  for (let index = 0; index < tagSpan.length; index += 1) {
+    tagSpan[index].addEventListener('click', changeClass);
+  }
 }
 
 buttonCriarCarta.addEventListener('click', createLetter);
+
+function changeClass(event) {
+  event.target.className = '';
+}
+
+for (let index = 0; index < tagSpan.length; index += 1) {
+  tagSpan[index].addEventListener('click', changeClass);
+}
