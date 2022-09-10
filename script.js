@@ -37,7 +37,7 @@ function createLetter() {
   }
 
   for (let index = 0; index < splitContent.length; index += 1) {
-    pCartaGerada.innerHTML += `<span class=${removeVirgula()}>${splitContent[index]}<span>`;
+    pCartaGerada.innerHTML += `<span class='${removeVirgula()}'>${splitContent[index]}<span>`;
   }
 
   if (content.length == 0 || spaceVerification.length == 0) {
@@ -54,7 +54,7 @@ function createLetter() {
 buttonCriarCarta.addEventListener('click', createLetter);
 
 function changeClass(event) {
-  event.target.className = '';
+  event.target.className = removeVirgula();
 }
 
 for (let index = 0; index < tagSpan.length; index += 1) {
