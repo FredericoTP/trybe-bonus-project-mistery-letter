@@ -1,6 +1,6 @@
 # :construction: README em construção ! :construction:
 
-# :computer: Trybe-03-Project-Pixels-Art :computer:
+# :computer: Trybe-Bonus-Project-Mistery-Letter :computer:
 
 Nesse projeto foi desenvolvido uma aplicação que gera cartas misteriosas. A pessoa usuária digita em um campo de texto e as palavras são apresentadas com uma aparência de uma carta onde cada palavra possui uma estilização própria.
 
