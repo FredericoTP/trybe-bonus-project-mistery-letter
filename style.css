@@ -2,6 +2,56 @@
   margin: 0;
 }
 
+body {
+  background-color: aliceblue;
+}
+
+#header {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+#header-title {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  width: fit-content;
+  padding: 10px;
+}
+
+#input-letter {
+  width: fit-content;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#criar-carta {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  font-weight: 700;
+  padding: 5px;
+}
+
+#carta-contador {
+  background-color: black;
+  border-radius: 100%;
+  color: white;
+  font-weight: 700;
+  margin: 5px auto;
+  padding: 5px;
+  width: fit-content;
+}
+
+#carta-gerada {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .newspaper {
   background-color: rgb(250, 235, 215);
   font-family: 'Times New Roman', Times, serif;
