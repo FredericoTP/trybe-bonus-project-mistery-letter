@@ -140,6 +140,8 @@ Sua página deve conter um parágrafo <code>p</code> com <code>ID</code> <code>c
 
 ## 100% :heavy_check_mark:
 
+![Project-Bonus-Mistery-Letter-Grade](https://github.com/FredericoTP/trybe-bonus-project-mistery-letter/blob/main/images/carta-misteriosa-grade.png?raw=true)
+
 <br />
 
 ## 3- Preview
