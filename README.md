@@ -1,10 +1,8 @@
-# :construction: README em construção ! :construction:
-
 # :computer: Trybe-Bonus-Project-Mistery-Letter :computer:
 
 Nesse projeto foi desenvolvido uma aplicação que gera cartas misteriosas. A pessoa usuária digita em um campo de texto e as palavras são apresentadas com uma aparência de uma carta onde cada palavra possui uma estilização própria.
 
-# Acesse o projeto clicando [aqui]()! :green_heart:
+# Acesse o projeto clicando [aqui](https://fredericotp.github.io/trybe-bonus-project-mistery-letter/)! :green_heart:
 
 <br />
 
@@ -145,3 +143,5 @@ Sua página deve conter um parágrafo <code>p</code> com <code>ID</code> <code>c
 <br />
 
 ## 3- Preview
+
+![Project-Bonus-Mistery-Letter-Preview](https://github.com/FredericoTP/trybe-bonus-project-mistery-letter/blob/main/images/carta-misteriosa-preview.png?raw=true)
